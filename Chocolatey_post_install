@@ -11,7 +11,7 @@ Maximum tries of 3 reached. Throwing error.
 Cannot create directory "C:\ProgramData\chocolatey\config". Error was:
 System.UnauthorizedAccessException: Access to the path 'C:\ProgramData\chocolatey\config' is denied.
 
-Re-open Command Prompt and Powershell, and reboot Windows 10 as per various online resources suggested, none helped. 
+Re-open Command Prompt and Powershell, and reboot Windows 10 as per screen prompts and various online resources suggested, none helped. 
 
 To fix, locate "choco" executable in File Explorer, in my case it is located at c:\ProgramData\chocolatey directory, right-click 
 on "choco", select "Run as Administrator" from the context menu. In so doing, choco is able to create config folder and 
