@@ -17,7 +17,7 @@ To solve, locate "choco" executable in File Explorer, in my case it is located i
 on "choco", select "Run as Administrator" from the context menu. In so doing, choco is able to create config folder and 
 chocolatey.config file. 
 
-Choco works like a charm since then.
+
 
 
 
